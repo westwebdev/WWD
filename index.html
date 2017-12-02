@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>WWD</title>
+	
+	<link rel="stylesheet" href="css/scroll-bar.css"/>
+	<link rel="stylesheet" href="css/key-frame.css"/>
+	<link rel="stylesheet" href="css/animate.css"/>
+	<link rel="stylesheet" href="css/flickity/flickity-docs.css" media="screen">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/circle.css"/>
+	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="stylesheet" href="css/menu.css"/>
+	<link rel="stylesheet" href="css/popup.css"/>
+	<link rel="stylesheet" href="css/arrows-up-and-down.css"/>
+	<link rel="stylesheet" href="css/media.css"/>
+	<link rel="stylesheet" href="css/font-awesome.css"/>  
+
+	<!-- popup -->
+	<script src="js/popup/jquery-1.7.2.min.js"></script>
+
+</head>
+<body> 
+	
+	<div id="fade"></div>
+	<div id="fade-2"></div>
+	<div id="fade-popup"></div>
+
+	<header class="header">
+		<nav class="nav-menu"  id="nav-menu">
+			<a class="nav-a ancor" href="#first">
+				<div>WWD</div>
+			</a>
+			<a class="nav-a ancor" href="#works">
+				<div class="en">Portfolio</div>
+				<div class="ru">Портфолио</div>
+				<div class="ua">Портфоліо</div>
+			</a>
+			<a class="nav-a ancor me" href="#skills">
+				<div class="en">About me</div>
+				<div class="ru">Про меня</div>
+				<div class="ua">Про мене</div>
+			</a>
+			<a class="nav-a ancor" href="#call">
+				<div class="en">Contacts</div>
+				<div class="ru">Контакты</div>
+				<div class="ua">Контакти</div>
+			</a>
+				<div id="menu-close" class="close"></div>
+		</nav>
+
+		<div id="menu-button" class="menu-button">
+			<div class="ninja-button">
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+			</div>
+		</div>
+	</header>
+
+<div class="lang-panel">
+	<button type="submit" class="language en-button"><span>EN</span></button>
+	<button type="submit" class="language ru-button"><span>RU</span></button>
+	<button type="submit" class="language ua-button"><span>UA</span></button>
+
+</div>
+
+	<a href="#first" id="up" class="ancor">
+
+		<div class="container"> 
+			<div class="chevron"></div> 
+			<div class="chevron"></div> 
+			<div class="chevron"></div> 
+		</div>
+	</a>
+
+
+
+	<section id="first">
+		<div class="logo">
+			<img src="img/LOGO1.png" alt="Logo WWD">
+		</div>
+		<div class="motto en"><span>m</span>ake <span>y</span>our <span>b</span>usiness <span>s</span>uccessful</div>
+		<div class="motto ru"><span>с</span>делаем <span>в</span>аш <span>б</span>изнес <span>и</span>звестным</div>
+		<div class="motto ua"><span>з</span>робимо <span>в</span>аш <span>б</span>ізнес <span>в</span>ідомим</div>
+		<div class="arr-down">
+			<a href="#works" class="ancor">
+				<i class="fa fa-arrow-circle-down" aria-hidden="true"></i>
+			</a>
+		</div>
+	</section>
+
+	
+	<section id="works">
+		<div class="site-h en">portfolio</div>
+		<div class="site-h ua">портфолио</div>
+		<div class="site-h ru">портфоліо</div>
+
+		<div class="carousel carousel--show-several slider" data-flickity='{ "initialIndex": 1, &quot;contain&quot;: true, &quot;wrapAround&quot;: true}'>
+			
+			<div class="carousel-cell djbr cover">
+				<div id="slick-popup" class="more">
+					<div class="en">More..</div>
+					<div class="ru">Еще..</div>
+					<div class="ua">Ще..</div>
+				</div>
+			</div>
+
+			<div class="carousel-cell lash cover">
+				<div id="slick-popup2" class="more">
+					<div class="en">More..</div>
+					<div class="ru">Еще..</div>
+					<div class="ua">Ще..</div>
+				</div>
+			</div>
+
+			<div class="carousel-cell lb cover">
+				<div id="slick-popup3" class="more">
+					<div class="en">More..</div>
+					<div class="ru">Еще..</div>
+					<div class="ua">Ще..</div>
+				</div>
+			</div>
+
+			<div class="carousel-cell pfbl cover">
+				<div id="slick-popup4" class="more">
+					<div class="en">More..</div>
+					<div class="ru">Еще..</div>
+					<div class="ua">Ще..</div>
+				</div>
+			</div>
+
+			<div class="carousel-cell new cover">
+				<div id="slick-popup5" class="more">
+					<div class="en">More..</div>
+					<div class="ru">Еще..</div>
+					<div class="ua">Ще..</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Gallery -->
+		<div id="popup-gallery" class="popup popup-gallery">
+			<a href="#!">
+				<div class="gallery-item djbr"></div>
+			</a>
+			<a href="">
+				<div class="gallery-item lash"></div>
+			</a>
+			<a href="">
+				<div class="gallery-item lb"></div>
+			</a>
+			<a href="">
+				<div class="gallery-item pfbl"></div>
+			</a>
+		</div>
+
+
+
+		<div id="popup" class="popup popup-more">
+			<a href="djbr/index.html" class="popup-img va-middle djbr" target="_blank"></a>
+			<div class="popup-text va-middle"><div class="popup-h">Django Bridge</div>
+				<span class="en">The site of the company on several pages, with sliders, a map, the main menu will appear in scrolling, and a version for mobile devices.</span>
+				<span class="ru">Сайт компании на нескольких страницах, со слайдерами, картой, главным меню появляющимся при прокрутке, и версии для мобильных устройств.</span>
+				<span class="ua">Сайт компанії на кількох сторінках, зі слайдерами, мапою, головним меню зявлючимся при прокрутці, та версією для мобільних пристроїв.</span>
+			</div>
+			<a href="djbr/index.html" class="open" target="_blank"><div class="va-middle"><i class="fa fa-sign-in" aria-hidden="true"></i></div></a>
+		</div>
+
+
+		<div id="popup2" class="popup popup-more">
+			<a href="lash/index.html" class="lash popup-img va-middle" target="_blank"></a>
+			<div class="popup-text va-middle"><div class="popup-h">La Shoopa</div>
+				<span class="en">Online store page with fixed width, drop down lists, modal windows, no mobile version.</span>
+				<span class="ru">Страница интернет магазина с фиксированной шириной, выпадающими списками, модальными окнами, без мобильной версии.</span>
+				<span class="ua">Сторінка інтернет магазину з фіксованою шириною, випадаючими списками, модальними вікнами, без мобільної версії.</span>
+			</div>
+			<a href="lash/index.html" class="open" target="_blank"><div class="va-middle"><i class="fa fa-sign-in" aria-hidden="true"></i></div></a>
+		</div>
+
+		<div id="popup3" class="popup popup-more">
+			<a href="lvlbuild/index.html" class="popup-img va-middle lb" target="_blank"></a>
+			<div class="popup-text va-middle"><div class="popup-h">Level Building</div>
+				<span class="en">Fully executed on CSS construction company page, with sliders, forms, table and modal window. Adapted under the ceiling, tablets and mobile phones.</span>
+				<span class="ru">Выполнена полностью на CSS страница строительной компании, с слайдерами,  формами, таблицей и модальным окном. Адаптирован под декстоп, планшеты и мобильные телефоны.</span>
+				<span class="ua">Виконана повністю на CSS сторінка будівельної компанії, зі слайдерами,  формами, таблицею та модальним вікном. Адаптований під декстоп, планшети та мобільні телефони.</span>
+			</div>
+			<a href="lvlbuild/index.html" class="open" target="_blank"><div class="va-middle"><i class="fa fa-sign-in" aria-hidden="true"></i></div></a>
+		</div>
+
+		<div id="popup4" class="popup popup-more">
+			<a href="profblog/index.html" class="popup-img va-middle pfbl" target="_blank"></a>
+			<div class="popup-text va-middle"><div class="popup-h">Profisional Blog</div>
+				<span class="en">The blog is devoted to a healthy lifestyle, with easy animation, adaptive design and mobile version.</span>
+				<span class="ru">Блог посвящен здоровому образу жизни, с легкой анимациеwill be madeй, адаптивный дизайн и мобильная версия.</span>
+				<span class="ua">Блог присвячений здоровому способу життя, з легкою анімацією, адаптивний дизайн та мобільна версія.</span>
+			</div>
+			<a href="profblog/index.html" class="open" target="_blank"><div class="va-middle" target="_blank"><i class="fa fa-sign-in" aria-hidden="true"></i></div></a>
+		</div>
+
+		<div id="popup5" class="popup popup-more">
+			<div class="popup-img va-middle new" style="width: 100%; height: 100%; margin: 0"></div>
+		</div>
+
+	</section>
+
+	<section id="make">
+		
+		<div class="site-h en">we provide</div>
+		<div class="site-h ru">будет сделано</div>
+		<div class="site-h ua">буде зроблено</div>
+		
+		<ul class="make-list en">
+			<li class="make-item">Responsive Desing</li>
+			<li class="make-item">Valid Code</li>
+			<li class="make-item">Animation</li>
+			<li class="make-item">Cross-browser Markup</li>
+			<li class="make-item">Optimized Code</li>
+			<li class="make-item">Perfect Pixel</li>
+		</ul>
+		<ul class="make-list ru">
+			<li class="make-item">Респонзивный дизайн</li>
+			<li class="make-item">Валидный код</li>
+			<li class="make-item">Анимация</li>
+			<li class="make-item">Кросбраузерная верстка</li>
+			<li class="make-item">Оптимизированый код</li>
+			<li class="make-item">Perfect Pixel</li>
+		</ul>
+		<ul class="make-list ua">
+			<li class="make-item">Респонзивний дизайн</li>
+			<li class="make-item">Валідний код</li>
+			<li class="make-item">Анімація</li>
+			<li class="make-item">Кросбраузерна верстка</li>
+			<li class="make-item">Оптимізований код</li>
+			<li class="make-item">Perfect Pixel</li>
+		</ul>
+		
+	</section>
+
+	<section id="skills">
+
+		<div class="skill-text en">The thrust to programming was manifested in school years, and the choice of direction for a profession was solved by itself...</div>
+		<div class="skill-text ru">Тяга к программированию проявилась е в школьные годы, и выбор направления для получения профессии решился сам собой...</div>
+		<div class="skill-text ua">Тяга до програмування проявилась е в шкільні роки, і вибір напрямку для отримання професії вирішився сам собою...</div>
+
+		<div class="site-h en">Developers Skills</div>
+		<div class="site-h ru">Навыки</div>
+		<div class="site-h ua">Навики</div>
+
+		<div class="skills">
+			<div class="skills-bar">	
+				<div class="skill-capt">html/html5</div>
+				<div id="c100" class="c100 p70 dark">
+					<span>70%</span>
+					<div class="slice">
+						<div class="bar"></div>
+						<div class="fill"></div>
+					</div>
+				</div>
+			</div>
+			<div class="skills-bar">
+				<div class="skill-capt">css/css3</div>
+				<div class="c100 p80 dark">
+					<span>80%</span>
+					<div class="slice">
+						<div class="bar"></div>
+						<div class="fill"></div>
+					</div>
+				</div>
+			</div>
+			<div class="skills-bar">
+				<div class="skill-capt">sass/scss</div>
+				<div class="c100 p75 dark">
+					<span>75%</span>
+					<div class="slice">
+						<div class="bar"></div>
+						<div class="fill"></div>
+					</div>
+				</div>
+			</div>
+			<div class="skills-bar">
+				<div class="skill-capt">bootstrap</div>
+				<div class="c100 p85 dark">
+					<span>85%</span>
+					<div class="slice">
+						<div class="bar"></div>
+						<div class="fill"></div>
+					</div>
+				</div>
+			</div>
+			<div class="skills-bar">
+				<div class="skill-capt">js/jquery</div>
+				<div class="c100 p20 dark">
+					<span>20%</span>
+					<div class="slice">
+						<div class="bar"></div>
+						<div class="fill"></div>
+					</div>
+				</div>
+			</div>
+			<div class="skills-bar">
+				<div class="skill-capt">photoshop 
+				</div>
+				<div class="c100 p45 dark">
+					<span>45%</span>
+					<div class="slice">
+						<div class="bar"></div>
+						<div class="fill"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<button type="submit" id="about" class="about show-button">
+			<span class="en">About me</span>
+			<span class="ru">Про меня</span>
+			<span class="ua">Про мене</span>
+		</button>
+
+		<!-- About -->
+		<div id="popup-about" class="popup-about popup">
+			<div class="about-name en">Anatolij Ihnato</div>
+			<div class="about-name ru">Анатолий Игнатьо</div>
+			<div class="about-name ua">Анатолій Ігнатьо</div>
+
+			<img src="img/im.png" alt="I">
+			
+			<div class="vacant en">HTML developer, front-end developer</div>
+			<div class="vacant ru">Веб-разработчик, фронтенд разработчик</div>
+			<div class="vacant ua">Веб-верстальщик, фронтенд розробник</div>
+
+			<div class="about-item date en">Date of birth: <span>July 22, 1987</span></div>
+			<div class="about-item date ru">Дата рождения: <span>Июль 22, 1987</span></div>
+			<div class="about-item date ua">Дата народження: <span>Липень 22, 1987</span></div>
+
+			<div class="about-item town en">City: <span>Uzhgorod, Ukraine</span></div>
+			<div class="about-item town ru">Город: <span>Ужгород, Украина</span></div>
+			<div class="about-item town ua">Місто: <span>Ужгород, Україна</span></div>
+
+			<div class="about-item educ en">Education: <span>Transcarpathian State University, Faculty of Informatics, specialty Information and control systems and technologies.</span></div>
+			<div class="about-item educ ru">Образование: <span>Закарпатский государственный университет, факультет Информатики, специальность Информационно-управляющие системы и технологии.</span></div>
+			<div class="about-item educ ua">Освіта: <span>Закарпатський Державний Університет, факультет Інформатики, спеціальність Інформаційно-управляючі системи і технології.</span></div>
+
+			<div class="about-item me en">More: <span>The tendency to programming was evident in school years, and the choice of direction for the profession was solved by itself. But the fate was discharged differently, during my absence in the field of information technologies, I managed to get another education, to do business, to give part of my life to the martial arts. Still, the craving for the IT sphere did not give me rest. So let's start with the frontend.</span></div>
+			<div class="about-item me ru">Больше: <span>Тяга к программированию проявилась еще в школьные годы, и выбор направления для получения профессии решился сам собой. Но судьба распорядилась иначе, за время моего отсутствия в в сфере информационных технологий я успел получить еще одно образование, заняться бизнесом, отдать часть жизни боевым искусствам. И все же тяга к ИТ сферы не давала мне покоя. Поэтому начинаем с фронтенда.</span></div>
+			<div class="about-item me ua">Більше: <span>Тяга до програмування проявилась ще в шкільні роки, і вибір напрямку для отримання професії вирішився сам собою. Але доля розпорядилась інакше, за час моєї відсутності в в сфері інформаційних технологій я встиг здобути ще одну освіту, зайнятись бізнесом, віддати частину життя бойовим мистецтвам. Та все ж тяга до ІТ сфери не давала мені спокою. Тож починаємо з фронтенду.</span></div>
+
+			<div class="about-item my-skills">
+				<div class="my-skills-h en">Professional skills:</div>
+				<div class="my-skills-h ru">Профессиональные навыки:</div>
+				<div class="my-skills-h ua">Професійні навики:</div>
+
+				<ul>
+					<li class="en"> Site layout with PSD</li>
+					<li class="ru"> Верстка сайта с PSD макета</li>
+					<li class="ua"> Верстка сайту з PSD макету</li>
+					
+					<li class="en"> Adaptive and responsive design</li>
+					<li class="ru"> Адаптивная и респонзивная верстка</li>
+					<li class="ua"> Адаптивна та респонзивна верстка</li>
+					
+					<li class="en"> Cross-cut layout</li>
+					<li class="ru"> Кросбраузерная верстка</li>
+					<li class="ua"> Кросбраузерна верстка</li>
+					
+					<li class="en"> Valid code</li>
+					<li class="ru"> Валидный код</li>
+					<li class="ua"> Валідний код</li>
+					
+					<li class="en"> Animation of the page and its elements</li>
+					<li class="ru"> Анимация страницы и ее элементов</li>
+					<li class="ua"> Анімація сторінки та її елементів</li>
+					
+					<li class="en"> Connecting and Configuring JS Plugins (anime, fullPage, flickity, orbit slider)</li>
+					<li class="ru"> Подключение и настройка JS-плагинов (anime, fullPage, flickity, orbit slider)</li>
+					<li class="ua"> Підключення ти налаштуваня JS-плагінів (anime, fullPage, flickity, orbit slider)</li>
+					
+					<li class="en">  Using Frameworks (Bootstrap)</li>
+					<li class="ru"> Использование фреймворков (Bootstrap)</li>
+					<li class="ua"> Використання фреймворків (Bootstrap)</li>
+					
+					<li class="en"> Optimization of the code</li>
+					<li class="ru"> Оптимизированный код</li>
+					<li class="ua"> Оптимізований код</li>
+					
+					<li class="en"> Perfect Pixel</li>
+					<li class="ru"> Perfect Pixel</li>
+					<li class="ua"> Perfect Pixel</li>
+					
+					<li class="en"> Working with a local server (Denwer)</li>
+					<li class="ru"> Работа с локальним сервером (Denwer)</li>
+					<li class="ua"> робота з локальним сервером (Denwer)</li>
+				
+				</ul>
+			</div>
+
+		</div>
+
+	</section>
+
+
+	<section id="call">
+		<div class="contact">
+			<div class="site-h en">Contacts</div>
+			<div class="site-h ru">Контакты</div>
+			<div class="site-h ua">Контакти</div>
+
+			<div class="cont-list">			
+				<div class="cont-link">
+					<a href="https://www.facebook.com/anatolij.ignatjo" target="_blank">
+						<i class="fa fa-facebook" aria-hidden="true"></i>
+						<span>Anatolij Ignatyo</span>
+					</a>
+				</div>
+				<div class="cont-link">
+					<a href="mailto:anatolij.ignatyo@gmail.com">
+						<i class="fa fa-envelope" aria-hidden="true"></i>
+						<span>anatolij.ignatyo@gmail.com</span>
+					</a>
+				</div>
+				<div class="cont-link">
+					<a href="callto:+380501777283">
+						<i class="fa fa-mobile" aria-hidden="true"></i>
+						<span>+38(050)1-777-283</span>
+					</a>
+				</div>
+				<div class="cont-link">
+					<a href="https://goo.gl/maps/PGQvjtZRfS12" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i>
+						<span class="en">Uzhgorod, Ukraine</span>
+						<span class="ru">Ужгород, Украина</span>
+						<span class="ua">Ужгород, Україна</span>
+
+					</a>
+				</div>
+
+			</div>
+
+			<a href="#footer" class="ancor"><button type="submit" id="show-form" class="show-form show-button"><span class="en">Message me</span><span class="ru">Напишите мне</span><span class="ua">Напишіть мені</span></button></a>
+
+		</div>
+
+		<div class="row">
+
+			<div id="form-close" class="close"></div>
+
+
+			<div class="col-xs-12 w">
+				<div class="well w">
+					<form role="form" id="contactForm" data-toggle="validator" class="form shake">
+						<div class="row">
+							<div class="form-group col-xs-6">
+								<label for="name" class="h4 formlabel">Name</label>
+								<input type="text" class="form-control" id="name" placeholder="Enter name" required data-error=" ">
+								<div class="help-block with-errors"></div>
+							</div>
+							<div class="form-group col-xs-6">
+								<label for="email" class="h4 formlabel">Email</label>
+								<input type="email" class="form-control" id="email" placeholder="Enter email" required  data-error=" ">
+								<div class="help-block with-errors"></div>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="message" class="h4 formlabel">Message</label>
+							<textarea id="message" class="form-control col-xs-12" rows="5" placeholder="Enter your message" required data-error=" "></textarea>
+							<div class="help-block with-errors"></div>
+						</div>
+						<button type="submit" id="form-submit" class="btn btn-success pull-right ">Submit</button>
+						<div id="msgSubmit" class="h3 text-center hidden"></div>
+						<div class="clearfix"></div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<footer id="footer">
+		<div class="company">West Web Development <span>©</span>  <span class="arr en"> All Right Reserved</span>
+		<span class="arr ru"> Все права защищены</span>
+		<span class="arr ua"> Всы права захищено</span>
+		</div>
+  </footer>
+
+
+
+  <!-- Start page-->
+  <!-- <script type="text/javascript" src="js/start.js"></script> -->
+
+
+
+
+  <!-- work-popup -->
+  <script src="js/popup/popup.js"></script>
+
+  <!-- Callback Form -->
+  <script type="text/javascript" src="js/callback/form-scripts.js"></script>
+  <script  type="text/javascript" src="js/callback/jquery-1.11.2.min.js"></script>
+  <script type="text/javascript" src="js/callback/validator.min.js"></script>
+
+  <!-- flickity slider -->
+  <script src="js/flickity.min.js"></script>
+
+
+  <script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>
